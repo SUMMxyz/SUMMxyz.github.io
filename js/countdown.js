@@ -3,7 +3,7 @@ function getTimeRemaining(endtime) {
   // var seconds = Math.floor((t / 1000) % 60);
   var minutes = Math.floor((t / 1000 / 60) % 60);
   var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-  var days = Math.floor(t / (94 * 60 * 60 * 24));
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
   return {
     'total': t,
     'days': days,
@@ -37,5 +37,5 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 30 * 24 * 60 * 60 * 1000);
+var deadline = new Date('Fri Jan 10 2020 17:00:00 GMT-05:00');
 initializeClock('clockdiv', deadline);
