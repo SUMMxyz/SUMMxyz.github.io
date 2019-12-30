@@ -25,10 +25,12 @@
 
   <script>
     $(function () {
-      $("#header").load("header.html", function () {
+      $("#header").load("/header.html", function () {
         $('#home').addClass("active");
       });
-      $("#footer").load("footer.html");
+      $("#footer").load("/footer.html");
+      $("#sponsor-list").load("/sponsor-list.html");
+      $("#daily-schedule").load("/daily-schedule.html");
     });
   </script>
 
@@ -366,6 +368,7 @@
             </ul>
 
             <!-- Tab panes -->
+            <!-- TODO aut-load from schedule.html -->
             <div class="tab-content">
 
               <!-- Day 1 -->
@@ -550,15 +553,7 @@
         <img src="img/home/section-style.png" alt="">
       </div>
 
-      <div class="sponsor-wrapper mb-5 pb-4">
-        <!-- <div class="row">
-          <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0">
-            <div class="sponsor-single">
-              <img class="img-fluid" src="img/home/sponsor1.png" alt="">
-            </div>
-          </div> -->
-
-      </div>
+      <div id="sponsor-list"></div>
 
     </div>
   </section>
