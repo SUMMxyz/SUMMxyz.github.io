@@ -202,9 +202,6 @@ footer a {
 .flex-justify-center {
   justify-content: center;
 }
-.flex-justify-end {
-  justify-content: end;
-}
 .flex-align-center {
   align-items: center;
 }
