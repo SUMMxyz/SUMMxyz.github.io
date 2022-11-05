@@ -1,542 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>SUMM 2022</title>
-  <link rel="icon" href="Fevicon.png" type="image/png">
-
-  <link rel="stylesheet" href="/vendors/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="/vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="/vendors/themify-icons/themify-icons.css">
-  <link rel="stylesheet" href="/vendors/linericon/style.css">
-  <link rel="stylesheet" href="/vendors/owl-carousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="/vendors/owl-carousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="/css/magnific-popup.css">
-  <link rel="stylesheet" href="/vendors/flat-icon/font/flaticon.css">
-  <link rel="stylesheet" href="/icons/flaticons/font/flaticon.css">
-  <link rel="stylesheet" href="/academicons/css/academicons.min.css">
-
-  <link rel="stylesheet" href="/css/style.css">
-
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-
-  <script>
-    $(function () {
-      $("#header").load("/header.html", function () {
-        $('#home').addClass("active");
-      });
-      $("#footer").load("/footer.html");
-      $("#sponsor-list").load("/sponsor-list.html");
-      $("#daily-schedule").load("/daily-schedule.html");
-    });
-  </script>
-
-</head>
-
-<body>
-
-  <!--================ Header Menu Area start =================-->
-  <div id="header"></div>
-  <!--================Header Menu Area =================-->
-
-
-  <!--================Hero Banner Area Start =================-->
-  <section class="hero-banner">
-    <div class="container text-center">
-      <!-- <span class="hero-banner-icon"><i class="flaticon-sing"></i></span> -->
-      <p>January 8 - 9, 2022, Montreal, online</p>
-      <h1>SUMM 2022</h1>
-      <!-- SIGN UP LINK TO ADD -->
-      <a class="button button-header" href="https://forms.gle/DWwfFt57MhBKgvWL7" target="_blank">Sign up</a>
-    </div>
-  </section>
-  <!--================Hero Banner Area End =================-->
-
-
-  <!--================ Innovation section Start =================-->
-  <section class="section-padding--small bg-gray" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center mb-5 mb-lg-0">
-          <div class="innovative-wrapper">
-            <h3 class="primary-text">About us <br> SUMM 2022</h3>
-            <p class="h4 primary-text2 mb-3">Share your passion of mathematics</p>
-
-            <style>
-              .about-us>p {
-                margin-bottom: 0.5rem;
-              }
-            </style>
-            <div class="about-us">
-              <p>The Seminars on Undergraduate Mathematics in Montreal (SUMM) is organized by undergraduate students
-                from Montreal universities. The main objective is to create an environment facilitating exchange of
-                ideas and interests as well as allowing students to network.
-              </p>
-
-              <p>SUMM is for undergraduate students in mathematics or related domains. This year, the conference will be
-                held on <b>January 8 and 9</b>, online.
-              </p>
-
-              <p>The weekend consist of two days of presentations given by undergraduate students and invited
-                professors. The presentations can cover a broad range of subject from mathematical physics to the
-                applications of artificial intelligence as well as the history and philosophy of mathematics.
-              </p>
-
-              <p>During the SUMM, students can give a talk or simply attend
-                presentations from their peers. It's an occasion to share the passion for mathematics in a stimulating
-                environment, while networking with other passionate students over the weekend.
-                <!-- whether it is between presentations or during breakfast, lunch, or dinner and enjoying, for example, a
-                delicious chicken panini. -->
-              </p>
-
-              <p>Hope to see you there!</p>
-            </div>
-          </div>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>SUMM 2023</title>
+  </head>
+  <body>
+    <header class="flex flex-justify-end">
+      <img id="logo" src="img/logo.webp">
+      <nav class="flex flex-align-center flex-justify-center flex-1">
+        <a href="#what">L'évènement</a>
+        <a href="#reg">S'inscrire</a>
+        <a href="#who">Invités</a>
+        <a href="#schedule">Horaire</a>
+        <a href="#who">Nous contacter</a>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="flex flex-col flex-justify-end align-center">
+        <div class="flex flex-col flex-justify-center flex-grow-1">
+          <h1 class="ft-huge">SUMM 2023</h1>
+          <p class="subtitle allcaps mg-t-0">
+            Les Séminaires Universitaires en Mathématiques à Montréal
+          </p>
+          <p class="mg-b-0">6 au 8 janvier 2023</p>
+          <p class="mg-t-0">Université de Montréal</p>
         </div>
-        <div class="col-lg-6 pl-xl-5">
-
-          <ul class="clockdiv text-center" id="clockdiv">
-            <li class="clockdiv-single clockdiv-day">
-              <h1 class="days">0</h1>
-              <span class="smalltext">Days</span>
-            </li>
-            <li class="clockdiv-single clockdiv-hour">
-              <h1 class="hours">0</h1>
-              <span class="smalltext">Hours</span>
-            </li>
-            <li class="clockdiv-single clockdiv-minute">
-              <h1 class="minutes">0</h1>
-              <span class="smalltext">Mins</span>
-            </li>
-          </ul>
-
-          <div class="clockdiv-content text-center">
-            <p class="h4 primary-text2 mb-2">January 8 - 9, 2022, online</p>
-            <!-- SIGN UP LINK TO ADD -->
-            <a class="button button-link" href="https://forms.gle/DWwfFt57MhBKgvWL7" target="_blank">Sign Up</a>
-          </div>
-
-        </div>
-      </div>
-  </section>
-  <!--================ Innovation section End =================-->
-
-
-  <!--================ Join section Start =================-->
-  <section class="section-margin">
-    <div class="container">
-      <div class="section-intro text-center pb-98px">
-        <!--<p class="section-intro__title">Join the event</p>-->
-        <h2 class="primary-text">Why attend SUMM</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-
-      <div class="d-lg-flex justify-content-between">
-        <div class="card-feature mb-5 mb-lg-0">
-          <div class="feature-icon">
-            <i class="flaticon-conversation"></i>
-          </div>
-          <h3>Network</h3>
-          <p>Meet like-minded students and exchange ideas on your favorite mathematical topics
+        <a href="#what">
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="mg-b-med"
+            width="35.317"
+            height="20.193"
+            viewBox="0 0 35.317 20.193">
+            <path
+              d="M23.852,25.352,37.206,11.988
+              a2.513,2.513,0,0,1,3.565,0,2.545,2.545,0,0,1,0,3.575L25.64,30.7
+              a2.519,2.519,0,0,1-3.48.074L6.924,15.573A2.524,2.524,0,0,1,10.488,12Z"
+              transform="translate(-6.188 -11.246)"
+              fill="#f4f4f4"/>
+          </svg>
+        </a>
+      </section>
+      <section id="what" class="flex">
+        <div class="flex-2 mg-r">
+          <h2 class="allcaps">Partage ta passion pour les mathématiques</h2>
+          <span class="title-decoration"></span>
+          <p>
+            Les Séminaires Universitaires en Mathématiques à Montréal (SUMM) est
+            un organisme formé par de jeunes étudiant.e.s au premier cycle en
+            mathématiques venant de toutes les universités montréalaises. Son
+            objectif principal est de créer un environnement propice aux échanges
+            d'idées et d'intérêts, ainsi que de permettre aux étudiant.e.s de
+            faire de nouvelles rencontres.
+          </p>
+          <p>
+            La fin de semaine des SUMM s'adresse aux étudiant.e.s de premier
+            cycle, en mathématiques ou en un autre domaine scientifique connexe.
+            Elle se tiendra du 6 au 8 janvier 2023.
+          </p>
+          <p>
+            La fin de semaine sera composée de deux jours de
+            présentations données par des étudiant.e.s au baccalauréat et par des
+            professeur.e.s invité.e.s sur un éventail de sujets pouvant aller des
+            coins les plus obscurs de la physique mathématique aux applications
+            les plus extraordinaires de l’intelligence artificielle, en passant
+            par la richesse de la philosophie et de l’histoire des mathématiques.
+          </p>
+          <p>
+            Durant les SUMM, les étudiant.e.s peuvent donner une conférence ou
+            tout simplement venir écouter les présentations de leurs pairs. C'est
+            une occasion de partager la passion des mathématiques dans un
+            environnement stimulant et gratifiant, en discutant avec d’autres
+            étudiant.e.s passioné.e.s toute la fin de semaine.
+          </p>
+          <p>
+            Au plaisir de vous y voir&nbsp;!
           </p>
         </div>
-
-        <div class="card-feature mb-5 mb-lg-0">
-          <div class="feature-icon">
-            <i class="flaticon-thinking"></i>
-          </div>
-          <h3>Expand your knowledge</h3>
-          <p>Learn from student presentations on different subject of mathematics
-          </p>
+        <div class="flex-1">
+          <img class="full-width" src="img/udem-front.webp">
         </div>
-
-        <div class="card-feature mb-5 mb-lg-0">
-          <div class="feature-icon">
-            <i class="flaticon-school"></i>
-          </div>
-          <h3>Present your work</h3>
-          <p>An opportunity to present your work and perfect your presentation skills
-          </p>
+      </section>
+      <div class="cta mg-none pd-r-huge pd-l-huge pd-b-big pd-t-big" id="reg">
+        <p class="light-color mg-none">On s'y rencontre&nbsp;?</p>
+        <div>
+          <a class="mg-r-med" href="https://forms.gle/TDTZueSnLxbuGWZJA">
+              S'inscrire en tant que conférencier
+          </a>
+          <a href="http://www.perdu.com">S'inscrire en tant que participant.e</a>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-12 text-center">
-          <!-- NEW FORM TO ADD -->
-          <a class="button mb-2" href="https://forms.gle/XC6h6qYiEATzZBoeA" target="_blank">Submit a presentation</a>
-          <a class="button ml-3 mb-2" href="https://forms.gle/DWwfFt57MhBKgvWL7" target="_blank">Sign Up</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Join section End =================-->
-
-
-  <!--================ Speaker section Start =================-->
-  <!-- <section class="speaker-bg section-padding" id="keynote">
-    <div class="container">
-      <div class="section-intro section-intro text-center pb-98px">
-        <h2 class="primary-text">SUMM 2020 Keynote Speakers (Last Year)</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/jean_pierre_marquis.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Jean-Pierre Marquis</h4>
+      <section class="flex flex-col flex-align-center" id="why">
+        <h2>Pourquoi participer au SUMM&nbsp;?</h2>
+        <span class="title-decoration mg-t-med"></span>
+        <div class="mg-b-med flex flex-grow-1 flex-align-center">
+          <div class="pastille">
+            <div class="pastille-icon-container">
+              <img class="pastille-icon" src="img/icon-conversation.png">
             </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a
-                    href="https://scholar.google.com/citations?user=p86Zt4AAAAAJ&hl=en&fbclid=IwAR1CHOVZtEsRUEAedt5f9yMkByFb3xGZk-ntPnoqhzU1lOJEVXFTrgZkmEY"><i
-                      class="ai ai-google-scholar"></i></a></li>
-              </ul>
+            <h3>Se créer un réseau</h3>
+            <p>
+              Rencontre des étudiants qui partagent ta passion pour les
+              mathématiques
+            </p>
+          </div>
+          <div class="pastille">
+            <div class="pastille-icon-container">
+              <img class="pastille-icon" src="img/icon-thinking.png">
             </div>
+            <h3>Approfondir ses connaissances</h3>
+            <p>
+              Apprends grâce aux présentations d'autres étudiants sur des sujets
+              variés
+            </p>
+          </div>
+          <div class="pastille">
+            <div class="pastille-icon-container">
+              <img class="pastille-icon" src="img/icon-presentation.png">
+            </div>
+            <h3>Présenter son travail</h3>
+            <p>
+              Une opportunité de présenter ton travail et d'améliorer tes
+              compétences de présentation
+            </p>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/niky_kamran.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Niky Kamran</h4>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a
-                    href="http://www.math.mcgill.ca/nkamran/?fbclid=IwAR2fTgyGX3-1IDrhwrVWQnU2yNXHW0sDcgrtzdICx37zIx3J_Rhf7rMCmbk"><i
-                      class="fas fa-globe"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/matilde_lalin.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Matilde Lalin</h4>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="https://dms.umontreal.ca/~mlalin/"><i class="fas fa-globe"></i></a></li>
-                <li><a
-                    href="https://scholar.google.ca/citations?user=7QSU7woAAAAJ&hl=en&fbclid=IwAR3UEc3TFr1uQBQLjYfCLZdpGAANUpo_OnWw2dwPKLeILmCAQK2UZzHSTNA"><i
-                      class="ai ai-google-scholar"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-100 mb-50px d-none d-lg-block"></div>
-
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/thomas_fox.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Thomas Fox</h4>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a
-                    href="http://www.math.mcgill.ca/fox/?fbclid=IwAR1d5XXGi4BsMSGVmao6VSw_gpr3OqIPVAbop1bibRgks0rT0QHT4AjfVhE"><i
-                      class="fas fa-globe"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/frederic_godin.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Frédéric Godin</h4>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="http://explore.concordia.ca/frederic-godin"><i class="fas fa-globe"></i></a></li>
-                <li><a href="https://scholar.google.ca/citations?user=XWWfMCYAAAAJ&hl=fr"><i
-                      class="ai ai-google-scholar"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/fabrice_larribe.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Fabrice Larribe</h4>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="http://fabricelarribe.uqam.ca/"><i class="fas fa-globe"></i></a></li>
-                <li><a href="https://scholar.google.com/citations?hl=en&user=lZviKWsAAAAJ"><i
-                      class="ai ai-google-scholar"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section> -->
-
-  <section class="speaker-bg section-padding" id="keynote">
-    <div class="container">
-      <div class="section-intro section-intro text-center pb-98px">
-        <!-- <p class="section-intro__title">Join the event</p> -->
-        <h2 class="primary-text">Keynote Speakers</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/Christian_Genest_sq.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Christian Genest</h4>
-              <p>McGill University</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="https://math.mcgill.ca/cgenest/"><i class="fas fa-globe"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/François_Bergeron_sq.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>François Bergeron</h4>
-              <p>Université du Québec à Montréal</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a href="https://bergeron.math.uqam.ca/fr/francois-bergeron/"><i class="fas fa-globe"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-100 mb-50px d-none d-lg-block"></div>
-
-        <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
-          <div class="card-speaker">
-            <img class="card-img rounded-0" src="/img/speaker/Morgan_Craig_sq.jpg" alt="">
-            <div class="speaker-footer">
-              <h4>Morgan Craig</h4>
-              <p>Université de Montréal</p>
-            </div>
-            <div class="speaker-overlay">
-              <ul class="speaker-social">
-                <li><a
-                    href="https://morgancraiglab.com"><i class="fas fa-globe"></i></a></li>
-                <li><a href="https://www.researchgate.net/profile/Morgan-Craig"><i
-                      class="ai ai-researchgate"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-
-
-      </div>
-    </div>
-  </section>
-  <!--================ Speaker section End =================-->
-
-
-  <!--================ Schedule section Start =================-->
-  <!-- <section class="section-margin mb-5 pb-5" id="schedule">
-    <div class="container">
-      <div class="section-intro text-center">
-        <h2 class="primary-text">SUMM 2020 Conference Schedule</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-      <div class="row" style="margin-top: 35px;">
-        <div class="col-xl-10 offset-xl-1">
-          <div class="scheduleTab">
-            <ul class="nav nav-tabs">
-              <li class="nav-item text-center">
-                <a class="active" data-toggle="tab" href="#day1">
-                  <h4>Day 1 - Friday</h4>
-                  <p>10 jan, 2020</p>
-                </a>
-              </li>
-              <li class="nav-item text-center">
-                <a data-toggle="tab" href="#day2">
-                  <h4>Day 2 - Saturday</h4>
-                  <p>11 jan, 2020</p>
-                </a>
-              </li>
-              <li class="nav-item text-center">
-                <a data-toggle="tab" href="#day3">
-                  <h4>Day 3 - Sunday</h4>
-                  <p>12 jan, 2020</p>
-                </a>
-              </li>
-            </ul>
-
-            <div id="daily-schedule"></div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-
-  <section class="section-margin mb-5 pb-5" id="schedule">
-    <div class="container">
-      <div class="section-intro text-center">
-        <!--<p class="section-intro__title">Join the event</p>-->
-        <h2 class="primary-text">SUMM 2022 Conference Schedule</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <!-- <div class="row mt-5" style="margin-bottom: 35px;">
-        <div class="col-12 text-center">
-          <a class="button mb-2" href="/program.pdf" download>Download the schedule</a>
-        </div>
-      </div> -->
-
-      <div class="row" style="margin-top: 35px;">
-        <div class="col-xl-10 offset-xl-1">
-          <div class="scheduleTab">
-            <ul class="nav nav-tabs">
-              <li class="nav-item text-center">
-                <a class="active" data-toggle="tab" href="#day2">
-                  <h4>Day 1 - Saturday</h4>
-                  <p>8 jan, 2022</p>
-                </a>
-              </li>
-              <li class="nav-item text-center">
-                <a data-toggle="tab" href="#day3">
-                  <h4>Day 2 - Sunday</h4>
-                  <p>9 jan, 2022</p>
-                </a>
-              </li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div id="daily-schedule"></div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--================ Schedule section End =================-->
-
-
-  <!--================ PriceTable section Start =================-->
-  <!-- <section class="section-padding bg-gray" id="price">
-    <div class="container">
-      <div class="section-intro text-center pb-98px"> -->
-  <!--<p class="section-intro__title">Join the event</p>-->
-  <!-- <h2 class="primary-text">Buy Your Ticket</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
-          <div class="text-center card-priceTable">
-            <div class="priceTable-header">
-              <h3>Early-bird</h3>
-              <p>Weekend pass</p>
-              <h1 class="priceTable-price"><span>$</span> 20.00</h1>
-            </div>
-            <ul class="priceTable-list">
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Conferences
-              </li>
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Keynotes
-              </li>
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Food during the weekend
-              </li>
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Saturday night dinner
-              </li>
-            </ul>
-            <div class="priceTable-footer">
-              <a class="button" href="https://www.eventbrite.ca/e/summ-2020-tickets-82050801155" target="_blank">Buy
-                Now</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
-          <div class="text-center card-priceTable">
-            <div class="priceTable-header">
-              <h3>At the door</h3>
-              <p>Weekend pass</p>
-              <h1 class="priceTable-price"><span>$</span> 25.00</h1>
-            </div>
-            <ul class="priceTable-list">
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Conferences
-              </li>
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Keynotes
-              </li>
-              <li>
-                <span class="position"><i class="ti-check"></i></span> Food during the weekend
-              </li>
-              <li>
-                <span class="negative"><i class="ti-close"></i></span> Saturday night dinner
-              </li>
-            </ul>
-            <div class="priceTable-footer">
-              <a class="button" href="https://www.eventbrite.ca/e/summ-2020-tickets-82050801155" target="_blank">
-                Buy at the door</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--================ PriceTable section End =================-->
-
-
-  <!--================ Sponsor section Start =================-->
-  <section class="section-padding--small sponsor-bg" id="sponsors">
-    <div class="container">
-      <div class="section-intro text-center pb-80px">
-        <!--<p class="section-intro__title">Join the event</p>-->
-        <h2 class="primary-text">Our Sponsors</h2>
-        <img src="img/home/section-style.png" alt="">
-      </div>
-
-      <div id="sponsor-list"></div>
-
-    </div>
-  </section>
-  <!--================ Sponsor section End =================-->
-
-  <!-- ================ start footer Area ================= -->
-  <footer class="footer-area" id="footer"></footer>
-  <!-- ================ End footer Area ================= -->
-
-
-
-
-  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-  <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/mail-script.js"></script>
-  <script src="js/countdown.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/main.js"></script>
-
-
-
-</body>
-
+      </section>
+      <section class="flex flex-col flex-align-center" id="who">
+        <h2>Conférences plénières</h2>
+        <span class="title-decoration mg-t-med"></span>
+        <p>À venir!</p>
+      </section>
+      <section class="flex flex-col flex-align-center" id="schedule">
+        <h2>Horaire du SUMM 2023</h2>
+        <span class="title-decoration mg-t-med"></span>
+        <p>À venir!</p>
+      </section>
+      <section class="flex flex-col flex-align-center" id="pictures">
+        <h2>Gallerie de photos</h2>
+        <span class="title-decoration mg-t-med"></span>
+        <p>À venir!</p>
+      </section>
+      <section class="flex flex-col flex-align-center" id="sponsors">
+        <h2>Nos commanditaires</h2>
+        <span class="title-decoration mg-t-med"></span>
+        <p>À venir!</p>
+      </section>
+    </main>
+    <footer class="pd-huge flex flex-gap-huge">
+      <section class="flex-1">
+        <h1>À propos du SUMM</h1>
+        <p class="darker-light-color">
+          Les Séminaires Universitaires en Mathématiques à Montréal (SUMM) est un
+          organisme formé par de jeunes étudiant.e.s au premier cycle en
+          mathématiques venant de toutes les universités montréalaises. Son
+          objectif principal est de créer un environnement propice aux échanges
+          d'idées et d'intérêts, ainsi que de permettre aux étudiant.e.s de faire
+          de nouvelles rencontres.
+        </p>
+        <p class="darker-light-color">
+          La fin de semaine des SUMM s'adresse aux étudiant.e.s de premier cycle,
+          en mathématiques ou en un autre domaine scientifique connexe.
+        </p>
+      </section>
+      <section class="flex-1">
+        <h1>Liens de navigation</h1>
+        <ul class="darker-light-color">
+          <li><a href="#what">L'évènement</a></li>
+          <li><a href="#reg">S'inscrire</a></li>
+          <li><a href="#who">Invités</a></li>
+          <li><a href="#schedule">Horaire</a></li>
+          <li>Nous contacter</li>
+        </ul>
+      </section>
+    </footer>
+  </body>
 </html>
