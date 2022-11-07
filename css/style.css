@@ -140,6 +140,7 @@ footer a {
 }
 
 .cta>div>a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   background-color: #f4f4f4;
