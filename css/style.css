@@ -16,6 +16,12 @@ h1,h2,h3,h4,h5,h6,.subtitle {
   margin-bottom: 0px;
 }
 
+@media (max-width: 768px) {
+  header {
+    display: none !important;
+  }
+}
+
 header {
   height: 70px;
 }
@@ -52,6 +58,18 @@ main section {
   padding: 100px;
 }
 
+@media (max-width: 768px) {
+  main section {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 492px) {
+  main section#what img {
+    display: none;
+  }
+}
+
 /* Specific section style and sizes. */
 main section#hero {
   padding: 0px;
@@ -65,12 +83,34 @@ main section#hero {
   letter-spacing: 1.2px;
 }
 
+main section#hero h1 {
+  line-height: 0.9;
+}
+
 main section#what {
   min-height: calc(100vh - 200px);
 }
 
+main section#what img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  main section#hero {
+    min-height: 100vh;
+  }
+  main section#hero h1 {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  main section#what {
+    flex-direction: column;
+  }
+}
+
 main section#why {
-  min-height: calc(100vh - 200px);
   background-color: #03182e;
   color: #f4f4f4;
 }
@@ -106,7 +146,7 @@ footer a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 400px;
+  width: 300px;
 }
 
 .pastille .pastille-icon-container {
@@ -148,6 +188,45 @@ footer a {
   border-radius: 25px;
 }
 
+@media (max-width: 1150px) {
+  .cta {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
+
+@media (max-width: 1014px) {
+  .cta {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .cta>div>a {
+    margin-right: 10px !important;
+  }
+}
+
+@media (max-width: 958px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta>p {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .cta>div>a {
+    width: 275px;
+    text-align: center;
+    margin-right: 0 !important;
+    margin-top: 10px;
+  }
+  .cta>div {
+    margin-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* Classes outils. */
 .mg-none {
   margin: 0;
@@ -157,6 +236,9 @@ footer a {
 }
 .mg-r-med {
   margin-right: 30px;
+}
+.mg-l-med {
+  margin-left: 30px;
 }
 .mg-t-0 {
   margin-top: 0px;
@@ -218,6 +300,12 @@ footer a {
 .flex-gap-huge {
   gap: 100px;
 }
+.flex-gap-med {
+  gap: 50px;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
 .full-width {
   width: 100%;
 }
@@ -241,4 +329,7 @@ footer a {
 }
 .light-color {
   color: #f4f4f4;
+}
+.float-l {
+  float: left;
 }
