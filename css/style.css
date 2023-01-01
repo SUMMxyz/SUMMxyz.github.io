@@ -227,6 +227,13 @@ footer a {
   }
 }
 
+.talkhead > img {
+  width: 300px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
 /* Classes outils. */
 .mg-none {
   margin: 0;
