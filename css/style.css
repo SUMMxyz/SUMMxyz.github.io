@@ -141,6 +141,21 @@ footer a {
   color: inherit;
 }
 
+table {
+  border-collapse: separate;
+  border-spacing: 40px 10px;
+}
+
+table tr th {
+  text-align: left;
+  font-size: 14pt;
+  padding-top: 30px;
+}
+
+table tr td:first-child {
+  font-weight: bold;
+}
+
 .pastille {
   display: flex;
   flex-direction: column;
