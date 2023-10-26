@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@font-face {
+/*@font-face {
   font-family: "Glacial Indifference";
   src: url('../fonts/GlacialIndifference-Regular.otf');
-}
+}*/
 
 html, body {
   scroll-behavior: smooth;
@@ -12,7 +12,7 @@ html, body {
 }
 
 h1,h2,h3,h4,h5,h6,.subtitle {
-  font-family: 'Glacial Indifference';
+/*  font-family: 'Glacial Indifference'; */
   margin-bottom: 0px;
 }
 
@@ -55,7 +55,7 @@ header>nav>a {
 /* General section style and sizes. */
 main section {
   overflow: hidden;
-  padding: 100px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
@@ -88,7 +88,7 @@ main section#hero h1 {
 }
 
 main section#what {
-  min-height: calc(100vh - 200px);
+  padding: 30px;
 }
 
 main section#what img {
@@ -115,6 +115,7 @@ main section#why {
   color: #f4f4f4;
 }
 
+/*
 main section#who {
   min-height: calc(100vh - 200px);
 }
@@ -129,7 +130,7 @@ main section#pictures {
 
 main section#sponsors {
   min-height: calc(100vh - 200px);
-}
+} */
 
 footer {
   background-color: #03182e;
@@ -301,6 +302,9 @@ table tr td:first-child {
 .flex-col {
   flex-direction: column;
 }
+.flex-row {
+  flex-direction: row;
+}
 .flex-justify-end {
   justify-content: flex-end;
 }
@@ -354,4 +358,38 @@ table tr td:first-child {
 }
 .float-l {
   float: left;
+}
+
+.sponsor {
+	display:block;
+}
+.sponsor img {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-12 {
+ width: 100vw;
+}
+
+.flex-4 {
+ width: 33.333333333vw;
+ height: 33.333333333vw;
+
+}
+
+.pad-top {
+  padding-top: 40px;
+}
+
+#ism {
+  background-color: #4d79d0;
+}
+
+#ism img {
+  padding-top: 8vw;
+}
+
+#sponsors {
+  padding-bottom:0;
 }
