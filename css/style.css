@@ -407,6 +407,14 @@ table tr td:first-child {
   min-width:110px;
 }
 
+#program {
+	overflow-x: scroll;
+}
+
+#program table {
+	overflow: visible;
+}
+
 #program_table a:link, #student a:link, #who a:link {
       text-decoration: none;
       color: blue;
