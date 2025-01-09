@@ -243,6 +243,9 @@ table tr td:first-child {
   }
 }
 
+.talkhead {
+	width: 100%;
+}
 .talkhead > img {
   width: 300px;
   float: left;
@@ -392,4 +395,42 @@ table tr td:first-child {
 
 #sponsors {
   padding-bottom:0;
+}
+
+/* Code pour le tableau de l'horaire */
+.centered {
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-cell {
+  min-width:110px;
+}
+
+#program_table a:link, #student a:link, #who a:link {
+      text-decoration: none;
+      color: blue;
+}
+
+#program_table a:visited, #student a:visited, #who a:visited {
+      text-decoration: none;
+      color: blue;
+}
+
+#program_table a:hover, #student a:hover, #who a:hover {
+      text-decoration: none;
+      color: blue;
+}
+
+#program_table a:active, #student a:active, #who a:active {
+      text-decoration: none;
+      color: blue;
+}
+
+#program_table .bold {
+	font-weight: bold;
+}
+
+#program_table td {
+	max-width: 200px;
 }
