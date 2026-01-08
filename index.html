@@ -251,7 +251,7 @@
     </tr>
     <tr>
         <td class="header-cell">15:30 - 16:00</td>
-	<td id="reba_1">Rebecca Abi Abdallah<br><a href="#reba_2"><i>Les probabilités et l'anatomie des entiers</i></a></td>
+	<td id="elis_1">Élisabeth Séguin<br><a href="#elis_2"><i>Permutations et bases triangulaires</i></a></td>
 	<td id="nikv_1">Nikki Veilleux<br><a href="#nikv_2"><i>Thermodynamics of Gravity: Exact Solution Phenomolgy</i></a></td>
 	<td id="samm_1">Samy Mammeri<br><a href="#samm_2"><i>Attribution via Kolmogorov–Arnold Networks</i></a></td>
     </tr>
@@ -291,7 +291,7 @@
         <td class="header-cell">10:00 - 10:30</td>
 	<td id="etib_1">Étienne Bouchard<br><a href="#etib_2"><i>Communication Complexity</i></a></td>
 	<td id="frel_1">Frédéric-Alexandre Lacasse<br><a href="#frel_2"><i>Quand les mathématiques précèdent la physique : de Riemann aux trous noirs</i></a></td>
-	<td></td>
+	<td id="reba_1">Rebecca Abi Abdallah<br><a href="#reba_2"><i>Les probabilités et l'anatomie des entiers</i></a></td>
     </tr>
     <tr class="bold">
         <td class="header-cell">10:30 - 11:00</td>
@@ -350,7 +350,7 @@
 	</div>
       </section>
 		  
-<!--	 <section class="flex flex-col flex-align-center" id="student">
+	 <section class="flex flex-col flex-align-center" id="student">
 		<h2>Conférences étudiantes 2026</h2>
 		<span class="title-decoration mg-t-med"></span>
 		<div class="talkhead mg-t-med" id="nata_2">
@@ -451,12 +451,12 @@ insignificant in most of these spacetimes, some of them do allow spin-flip proba
 				Reinforcement learning (RL) enables a "policy model" to learn desirable behaviors when the environment dynamics are complex or unknown. However, policies in RL can exhibit widely different behaviours even with similar starting conditions. As a result, when can an RL policy converge desirably such that the resulting policy's behaviours are sufficiently bounded and similar? Thus, this talk examines how constrained Markov decision processes (CMDPs) can be formulated to encourage the RL policy to converge within a desirable region. Finally, this talk also explores the theoretical and empirical results (notably from robotics) that support the implementation of CMPDs.
 			</p>
 		</div>
-		<div class="talkhead mg-t-med" id="reba_2">
+		<div class="talkhead mg-t-med" id="elis_2">
 			<p><strong></strong></p>
-			<h2>Rebecca Abi Abdallah, Université de Montréal</h2>
-			<h3><a href="#reba_1">Les probabilités et l'anatomie des entiers</a></h3>
+			<h2>Élisabeth Séguin, Université de Montréal</h2>
+			<h3><a href="#elis_1">Permutations et bases triangulaires</a></h3>
 			<p>
-				De nombreuses idées probabilistes telles la méthode des moments, les marches aléatoires, la théorie des matrices aléatoires sont récemment apparues dans les travaux de plusieurs théoriciens des nombres. Pour illustrer cette curieuse rencontre entre hasard et arithmétique, nous allons exposer un cas simple en étudiant la fonction omega(n) qui compte le nombre de facteurs premiers distincts d'un entier. En effet, l'analogie avec la loi de Poisson donnera une première intuition probabiliste. Mais pour décrire les fluctuations de omega(n) autour de sa moyenne, la loi normale sera un modèle asymptotique plus fin. Nous conclurons en montrant une application de certaines propriétés de cette fonction permettant de retrouver des résultats liés au problème de la table de multiplication.
+				
 			</p>
 		</div>
 		<div class="talkhead mg-t-med" id="nikv_2">
@@ -507,15 +507,15 @@ insignificant in most of these spacetimes, some of them do allow spin-flip proba
 				
 			</p>
 		</div>
-		<!-- <div class="talkhead mg-t-med" id="laul_2">
+	 	<div class="talkhead mg-t-med" id="reba_2">
 			<p><strong></strong></p>
-			<h2>Laurence Liang, Université McGill</h2>
-			<h3><a href="#laul_1">Increasing the Rate of Convergence in Reinforcement Learning </a> </h3>
+			<h2>Rebecca Abi Abdallah, Université de Montréal</h2>
+			<h3><a href="#reba_1">Les probabilités et l'anatomie des entiers</a></h3>
 			<p>
-				Reinforcement learning (RL) methods can be very useful to identify an optimal policy mapping the observation space to the action space, but can take a very long time to converge, if any convergence is observed. This applied math talk analyzes the theoretical conditions needed for convergence for RL problems and identifies numerical approximations that can be used to increase the rate of convergence. 
+				De nombreuses idées probabilistes telles la méthode des moments, les marches aléatoires, la théorie des matrices aléatoires sont récemment apparues dans les travaux de plusieurs théoriciens des nombres. Pour illustrer cette curieuse rencontre entre hasard et arithmétique, nous allons exposer un cas simple en étudiant la fonction omega(n) qui compte le nombre de facteurs premiers distincts d'un entier. En effet, l'analogie avec la loi de Poisson donnera une première intuition probabiliste. Mais pour décrire les fluctuations de omega(n) autour de sa moyenne, la loi normale sera un modèle asymptotique plus fin. Nous conclurons en montrant une application de certaines propriétés de cette fonction permettant de retrouver des résultats liés au problème de la table de multiplication.
 			</p>
 		</div>
-		<div class="talkhead mg-t-med" id="eliv_2">
+		<!-- <div class="talkhead mg-t-med" id="eliv_2">
 			<p><strong></strong></p>
 			<h2>Elizabeth van Oorschot, Université McGill</h2>
 			<h3><a href="#eliv_1">Succinct Zero-Knowledge Proofs Using Polynomial Commitments</a></h3>
@@ -523,7 +523,7 @@ insignificant in most of these spacetimes, some of them do allow spin-flip proba
 				This talk is an introduction to the world of zero-knowledge proofs. After introducing the general concepts, we look at zero-knowledge Succinct Non-Interactive Arguments of Knowledge (zk-SNARKs), which are a type of zero-knowledge proof that has gained popularity recently due its properties (succinctness and non-interactivity) which are convenient for many applications. We explore commitments, a tool used to create zero-knowledge proofs, and learn how the KZG polynomial commitment works, as well as the properties that motivate its construction. Armed with this, we tackle the simple example of succinctly proving the sum of two arrays in zero-knowledge. Finally, we briefly visit topics that extend our example beyond the scope of the presentation, as well as some motivating applications.
 			</p>
 		</div> -->
-	</section> -->
+	</section>
 
 <!--     <section class="flex flex-col flex-align-center" id="schedule">
         <h2>Horaire du SUMM 2024</h2>
