@@ -452,7 +452,7 @@ table tr td:first-child {
 }
 
 .directions-row img {
-  width: 100%;
+  flex: 1;
   max-width: 9600px;
   height: auto;
 }
