@@ -445,7 +445,7 @@ table tr td:first-child {
 
 .directions-row {
   display: flex;
-  gap: 20px;              /* space between images */
+  gap: 40px;              /* space between images */
   align-items: center;
   justify-content: center;
   margin: 20px 0;
