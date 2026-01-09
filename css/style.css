@@ -442,3 +442,17 @@ table tr td:first-child {
 #program_table td {
 	max-width: 200px;
 }
+
+.directions-row {
+  display: flex;
+  gap: 20px;              /* space between images */
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.directions-row img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
